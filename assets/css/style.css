@@ -3,11 +3,23 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #0C0C0C!important;
 }
 
 a {
-  color: #0563bb;
+  color: #F2613F;
 }
+
+.font , p , ul li{
+  color:#dcdada;
+}
+
+.content , p{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+
 
 a:hover {
   color: #067ded;
@@ -29,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #F2613F;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -67,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #F2613F;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -185,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #F2613F;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -230,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: #F2613F;
 }
 
 /*--------------------------------------------------------------
@@ -239,10 +251,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/dp.jpg")top center no-repeat!important;
+  /* background: url("../img/dp.jpg")top center no-repeat!important;
   background-size: cover!important;
-  background-repeat: no-repeat;
-  position: relative;
+  background-repeat: no-repeat; */
+  /* position: relative; */
 
 }
 
@@ -254,8 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgb(202 212 221 / 68%);
-  position: absolute;
+  background:#0C0C0C;
   bottom: 0;
   top: 0;
   left: 0;
@@ -267,23 +278,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #e9e9e9;
 }
 
 #hero p {
-  color: #45505b;
+  color: #45505b!important;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 28px;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #F2613F;
   letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 #hero .social-links {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 #hero .social-links a {
@@ -296,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #F2613F;
 }
 
 @media (max-width: 992px) {
@@ -328,16 +342,15 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size:70px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
   color: #45505b;
 }
 
-.section-title h2::before {
+/* .section-title h2::before {
   content: '';
   position: absolute;
   display: block;
@@ -354,10 +367,10 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #F2613F;
   bottom: 0;
   left: calc(50% - 20px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
@@ -367,8 +380,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
+  font-weight: 800;
+  font-size: 32px;
   color: #728394;
 }
 
@@ -384,86 +397,38 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #F2613F;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts .count-box {
-  padding: 30px 30px 25px 30px;
-  margin-top: 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #fff;
-}
-
-.facts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #0563bb;
-  padding: 12px;
-  color: #fff;
-  border-radius: 50px;
-}
-
-.facts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #011426;
-}
-
-.facts .count-box p {
-  padding: 0;
-  margin: 0;
-  
-  font-size: 14px;
-}
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
-}
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
-}
+.card{
+background-color: #303539;
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
 }
+.skillcard img{
+  height:100px;
+  }
 
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.card{
+  height:200px;
+  width:200px;
+  border-radius: 10%;
+  margin:25px;
 }
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #0563bb;
-}
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -478,7 +443,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #9B3922;
   position: relative;
 }
 
@@ -488,7 +453,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #9B3922;
   margin-bottom: 10px;
 }
 
@@ -499,6 +464,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 .resume .resume-item ul {
@@ -507,6 +473,8 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .resume .resume-item:last-child {
@@ -522,19 +490,27 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #F2613F;
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portdp img{
+border-radius:5%;
+}
 
 .portfolio-item img{
 border:1px solid #45505b;
 display:block;
 width: 100%;
 height:350px;
+border-radius: 10%;
 object-fit: cover;
+}
+
+.portfolio-wrap{
+  border-radius: 10%;
 }
 
 .portfolio .portfolio-item {
@@ -559,13 +535,13 @@ object-fit: cover;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #272829!important;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #F2613F;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -697,8 +673,7 @@ object-fit: cover;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+    color: #45505b;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -727,7 +702,7 @@ object-fit: cover;
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #F2613F;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
