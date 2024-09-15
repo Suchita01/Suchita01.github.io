@@ -413,8 +413,14 @@ section {
 background-color: #303539;
 
 }
+
+.skillname {
+  font-weight:200;
+  font-size: 16px;
+}
 .skillcard img{
-  height:100px;
+  height:80px;
+  width:80px;
   }
 
 .center {
