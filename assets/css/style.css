@@ -708,8 +708,8 @@ object-fit: cover;
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #F2613F;
-  color: #fff;
+  /* background: #F2613F; */
+  color:#505c69;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -721,8 +721,8 @@ object-fit: cover;
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #F2613F;
+  color: #f2f3f5;
   text-decoration: none;
 }
 
