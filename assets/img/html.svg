@@ -11,7 +11,7 @@
 </g>
 <defs>
 <clipPath id="clip0_1008_50">
-<rect width="256" height="256" fill="white"/>
+<rect width="256" height="256" rx="50" fill="white"/>
 </clipPath>
 <clipPath id="clip1_1008_50">
 <rect width="124" height="174.727" fill="white" transform="translate(66 41)"/>
